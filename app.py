@@ -23,7 +23,7 @@ data = [
 
 @app.route('/')
 def hello():
-    return "Hello อภิญญา เจริญคุณษเกียรติ เลขที่26 ชั้น ม.4/6"
+    return "Hello อภิญญา เจริญคุณาเกียรติ เลขที่26 ชั้น ม.4/6"
 
 @app.route('/api', methods=['GET'])
 def get_api():
